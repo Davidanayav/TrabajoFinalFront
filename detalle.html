@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="logo" class="logo">
+        <nav>
+            <ul class="user-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="detail-content">
+        <!-- Sección izquierda (imagen + resumen) -->
+        <section class="product detail">
+            <article id="product-card">
+                <h2 id="prod-title">Cargando...</h2>
+                <img id="prod-img" src="" alt="producto">
+                <p id="prod-description"></p>
+                <h3 id="prod-price"></h3>
+                <a id="buy-btn" href="./carrito.html">Comprar</a>
+            </article>
+        </section>
+
+        <!-- Sección derecha (info completa) -->
+        <section id="product-full">
+            <h2 id="prod-brand"></h2>
+            <h3 id="prod-name"></h3>
+            <h4 id="prod-price-big"></h4>
+            <h3>Tamaño: <span id="prod-size">—</span></h3>
+            <h3>Descripción:</h3>
+            <p id="prod-longdesc"></p>
+
+            <h3>Reseñas:</h3>
+            <div id="reviews"></div>
+        </section>
+    </main>
+ <footer>
+                 <img src="./img/logo.png" alt="logo" class="logo">
+        <p>&copy; 2025 Todos los derechos reservados</p>
+          <nav>
+              <ul class="user-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="./js/detalle.js"></script>
+</body>
+</html>
